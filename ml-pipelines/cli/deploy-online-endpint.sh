@@ -1,7 +1,7 @@
 # DEPLOY
 
 # Deploy Online Endpoint
-az configure --defaults group=mldemorg workspace=mldemo location=eastus
+az configure --defaults group=amlworkshop workspace=amlworkshop location=southcentralus
 # create online endpoint
 az ml online-endpoint create --file deploy/online/online-endpoint.yml
 # create online deployment
